@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Softycodelab</title>
+<meta name="description" content="Softycodelab makes simple, private apps.">
+<link rel="icon" href="todoly/icon.png">
+<style>
+  :root { --bg: #F6F1E9; --fg: #1A1612; --mut: #6E665C; --pri: #2B3A52; --card: #FEFCF8; --line: #E2D9C8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #15130E; --fg: #F1ECE2; --mut: #9A9184; --pri: #9DB8DC; --card: #1E1B15; --line: #332E24; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 64px; }
+  h1 { color: var(--pri); font-size: 32px; margin: 0 0 4px; }
+  .lead { color: var(--mut); margin: 0 0 40px; }
+  .app { display: flex; gap: 20px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 20px; }
+  .app img { width: 72px; height: 72px; border-radius: 18px; flex: none; }
+  .app h2 { margin: 0; font-size: 20px; }
+  .app p { margin: 2px 0 8px; color: var(--mut); }
+  a { color: var(--pri); }
+  footer { margin-top: 48px; color: var(--mut); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Softycodelab</h1>
+  <p class="lead">Simple, private apps.</p>
+
+  <section class="app">
+    <img src="todoly/icon.png" alt="toDoly icon">
+    <div>
+      <h2>toDoly</h2>
+      <p>Plan your year, week and day, and keep your habits on track.</p>
+      <a href="todoly/privacy/">Privacy policy</a>
+    </div>
+  </section>
+
+  <footer>Contact: <a href="mailto:softycode.lab@gmail.com">softycode.lab@gmail.com</a></footer>
+</main>
+</body>
+</html>
